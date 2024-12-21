@@ -4,11 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>หน้าหลัก</title>
+    <link rel="stylesheet" href="css/index_styles.css">
 </head>
 <body>
     <!-- Header Section -->
     <header class="header">
         <h1>สถานที่น่าท่องเที่ยวในสุพรรณบุรี</h1>
+        <!-- Menu icon for mobile -->
+        <div class="menu-icon" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
         <!-- Navigation Menu -->
         <nav>
             <ul class="nav-menu">
@@ -18,6 +25,7 @@
             </ul>
         </nav>
     </header>
+
     <!-- Main Content Section -->
     <main class="main">
         <!-- Logo Section -->
@@ -31,7 +39,8 @@
         <section class="highlight-section">
             <h2>สถานที่ที่ไม่ควรพลาดในสุพรรณบุรี</h2>
             <div class="picture-item">
-                <img src="images/ตลาดน้ำสะพานโค้ง วัดทองประดิษฐ์.jpg" alt="ภาพมังกรสวรรค์" class="center">
+                <!-- ที่มา: https://www.wongnai.com/listings/attractions-suphanburi -->
+                <img src="images/ตลาดน้ำสะพานโค้ง วัดทองประดิษฐ์.jpg" alt="ตลาดน้ำสะพานโค้ง วัดทองประดิษฐ์" class="center">
             </div>
             <h2>
                 ตลาดน้ำสะพานโค้ง วัดทองประดิษฐ์
@@ -48,5 +57,6 @@
         <p>ติดต่อทีมงาน: Nattakit@gmail.com</p>
         <p>เบอร์โทรศัพท์: 082-342-7887</p>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
