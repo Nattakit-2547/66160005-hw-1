@@ -18,6 +18,22 @@
 
     <main class="main">
         <h2>ติดต่อทีมงาน</h2>
+        <h3>แบบฟอร์มการติดต่อ</h3>
+        <form class="contact-form" action="#" method="post">
+            <label for="name">ชื่อ:</label>
+            <input type="text" id="name" name="name" placeholder="กรุณาใส่ชื่อของคุณ" required>
+
+            <label for="email">อีเมล:</label>
+            <input type="email" id="email" name="email" placeholder="กรุณาใส่อีเมลของคุณ" required>
+
+            <label for="phone">เบอร์โทรศัพท์:</label>
+            <input type="text" id="phone" name="phone" placeholder="กรุณาใส่เบอร์โทรศัพท์ของคุณ" required pattern="^\d{10}$" maxlength="10" title="กรุณาใส่เบอร์โทรศัพท์ 10 หลัก">
+
+            <label for="message">ข้อความ:</label>
+            <textarea id="message" name="message" rows="5" placeholder="กรุณาเขียนข้อความของคุณที่นี่" required></textarea>
+
+            <button type="submit" class="btn-submit">ส่งข้อความ</button>
+        </form>
     </main>
 
     <footer role="contentinfo">
